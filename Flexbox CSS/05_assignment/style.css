@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    
+}
+/* Target container */
+
+.container{
+    /* width: 100vw; */
+    height:95vh;
+    display: flex;
+    flex-direction: row;
+}
+/* target left-container */
+
+.left-container{
+    width: 60%;
+    text-align: justify;
+    padding: 25px 20px 100px 50px;
+}
+/* target right-container */
+
+.right-container{
+    width: 40%;
+}
+/*Target  Header section  */
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px 100px 50px;
+   
+  
+}
+/* Left container logo */
+
+.left-container-logo img{
+    width: 50px;
+    height: 50px;
+}
+.left-container-logo :first-child{
+    margin-right: 15px;
+}
+/* left container options navigation start */
+
+.left-container-options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-container-options ul{
+    list-style-type: none;
+    
+}
+.left-container-options ul li a{
+    text-decoration: none;
+    color: #000000;
+    margin: 10px;
+}
+
+.left-container-options ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+}
+
+.left-container-options-buttongroup button{
+    margin: 9px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+}
+.left-container-options-buttongroup :first-child{
+    border: 1px solid #ffa500;
+    background-color: #ffa500;
+    color: #ffffff;
+   
+}
+/* left container options navigation end */
+
+/* main section text start */
+main h1{
+    font-size:40px ;
+    font-weight: 1200;
+}
+main span.green-text{
+    color: #1cc61c;
+    font-size: x-large;
+}
+main span.orange-text{
+    color:#ffa500;
+    font-size: x-large;
+}
+main span.blue-text{
+    color: #0000ff;
+    font-size: x-large;
+}
+/* main section text end */
+
+/* main-section-buttonsgroup start */
+.main-section-buttonsgroup :nth-child(2n+1){
+    vertical-align: middle
+}
+.main-section-buttonsgroup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    margin-top:40px;
+}
+.main-section-buttonsgroup .border{
+    border: 1px solid #808080;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+
+.main-section-buttonsgroup .book-tickets{
+    background-color: #02024b;
+    color: #ffffff;
+}
+/* main-section-buttonsgroup end */
+
+/* .journey-details start */
+
+main section.journey-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    border: 1px solid #808080;
+    padding: 20px;
+    border-radius: 10px;
+}
+main section.journey-details .from-address{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    line-height: 23px;
+    gap: 10px;
+}
+main section.journey-details .box{
+    width:30px;
+    height: 30px;
+    /* margin-right: 10px; */
+    
+}
+main section.journey-details .to-address{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    line-height: 23px;
+    gap: 10px;
+
+
+}
+
+main section.journey-details .expand-icon{
+    vertical-align: middle;
+}
+/* .journey-details end*/
+
+/* date-seat-details start */
+
+main section.date-seat-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    border: 1px solid #808080;
+    padding: 20px;
+    border-radius: 10px;
+    line-height:23px;
+}
+main section.date-seat-details .date-details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+main section.date-seat-details .coach-details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+main section.date-seat-details .widget-details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+main section.date-seat-details .expand-icon{
+    vertical-align: middle;
+}
+/* date-seat-details end */
+
+/*  Search buttons*/
+
+div.search-button{
+    border: 1px solid #ffffff;
+    padding: 20px 100px;
+    background-color: #008000;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 60px;
+    font-size: large;
+    font-weight: 900;
+}
+div.search-button img{
+    margin-left: 15px;
+    vertical-align: middle;
+}

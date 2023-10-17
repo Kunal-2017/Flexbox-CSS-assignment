@@ -1,0 +1,143 @@
+/* Universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body section */
+body{
+    font-family: 'Nunito', sans-serif;
+     font-family: 'Montserrat', sans-serif; 
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify; 
+    
+}
+/* pricing container start */
+.pricing{
+    width:962px;
+    height:427px;
+    background-color:#f4f2fd;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    padding: 32px 48px ;
+    margin:25px auto;   
+}
+/*pricing card-container */
+.pricing .card{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    padding: 32px;
+    border-radius: 8px;
+}
+/* free plan container */
+.free-plan{
+    width:262px;
+    height:363px;
+    background-color: #ffffff;
+    color:#202842;   
+}
+/* pricing card container header section start */
+
+.pricing .card .header-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 8px;
+}
+.pricing .card .header-content :first-child{
+    font-family: 'Nunito', sans-serif;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 700;  
+}
+
+
+.pricing .card .header-content :nth-child(2){
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+   
+}
+.pricing .card .header-content :nth-child(3){
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+}
+/* pricing card container header section end */
+/* pricing card container main section start */
+.pricing .card .main-content{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+   flex-direction: column;
+   padding-left: 8px;
+  
+}
+
+.card .main-content img{
+    vertical-align: middle;
+}
+/* pricing card container main section end */
+/* pricing card container button section start */
+.pricing .card button{
+    width:166px;
+    height: 38px;
+    padding: 8px 24px;
+    border-radius: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight:600 ;
+    line-height: 22px;
+    /* gap: 10px; */
+    margin-left: 20px;
+}
+/* pricing card container header section end */
+.pricing .free-plan button{
+    
+    background-color:#202842 ;
+    color: #ffffff;
+    
+    
+}
+/* basic-plan container start */
+.basic-plan{
+    width:262px ;
+    height:363px ;
+    background-color:#202842;  
+    color: #ffffff;
+    
+}
+
+.pricing .basic-plan button{
+    
+    background-color:#ffffff;
+    color: #202842 ;
+    
+    
+}
+/* basic-plan container ends */
+/* pro-plan container start */
+.pro-plan{
+    width:267px;
+    height:361px;
+    background-color: #ffffff;
+    color:#202842;
+   
+    
+}
+.pricing .pro-plan button{
+
+    background-color:#202842;
+    color:  #ffffff;
+    
+}
+/* pro-plan container end */
+/* pricing container end */

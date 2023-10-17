@@ -1,0 +1,16 @@
+QUE.2 Explain the role of following key properties in the Flexbox layout model.
+
+Sol.
+1. Justify-Content: It is used to allign items and to give space between items along main(x) axis.
+Ex- Justify-content: flex-start,space-between,centre etc.
+
+2. Allign-items: It is used to allign items and to give space between items along cross(y) axis.
+Ex- allign-items: flex-start,space-between,centre etc.
+
+3. Gap: It is used to space between items.
+
+4.Flex-direction: It is used to dispaly items along rows or columns.
+    Ex-Flex-direction:rows or columns
+
+5.Flex-wrap: It is used to display items in one rows or more than one rows.
+  
